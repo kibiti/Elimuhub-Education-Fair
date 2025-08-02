@@ -1,4 +1,23 @@
-# Elimuhub-Education-Fair
+# ElimuHub Islamic Education Fair Tech Suite
+
+Complete technology solution for managing Islamic education fairs with USSD registration, WhatsApp communications, and venue mapping.
+
+## ✨ Features
+- USSD registration system (38655#)
+- WhatsApp invitation templates
+- Interactive venue map with institution booths
+- Contact synchronization system
+- Email campaign templates
+- Schedule management
+
+## 🚀 Setup
+1. Clone repository: `git clone https://github.com/kibiti/Elimuhub-Education-Fair`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Configure environment variables:
+   ```env
+   MAPBOX_TOKEN=your_token
+   AT_API_KEY=africas_talking_key
+
 ## Repository: https://github.com/kibiti/Elimuhub-Education-Fair
 ```txt
 Elimuhub-Education-Fair/
