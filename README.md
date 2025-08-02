@@ -19,44 +19,47 @@ Complete technology solution for managing Islamic education fairs with USSD regi
    AT_API_KEY=africas_talking_key
 
 ## Repository: https://github.com/kibiti/Elimuhub-Education-Fair
-```txt
+```bash
 Elimuhub-Education-Fair/
+│
+├── 📂 contacts_db/
+│   ├── institutions/
+│   │   ├── universities.csv
+│   │   ├── colleges.csv
+│   │   └── specialized_institutes.csv
+│   ├── sponsors/
+│   │   ├── title_sponsors.csv
+│   │   ├── gold_sponsors.csv
+│   │   └── silver_sponsors.csv
+│   ├── madrassas/
+│   │   ├── nairobi_county.csv
+│   │   ├── central_kenya.csv
+│   │   └── coast_region.csv
+│   ├── stakeholders/
+│   │   ├── government.csv
+│   │   ├── religious_orgs.csv
+│   │   └── educational_associations.csv
+│   └── youth_associations/
+│       ├── national.csv
+│       └── regional.csv
 │
 ├── 📂 messaging/
 │   ├── templates/
-│   │   ├── whatsapp_invite_template.md
-│   │   └── reminder_template.md
-│   ├── messaging_schedule.json
-│   └── contacts.csv
+│   │   ├── university_invite.md
+│   │   ├── sponsor_proposal.md
+│   │   ├── madrassa_invite.md
+│   │   └── youth_association.md
+│   └── contact_manager.py
 │
 ├── 📂 registration/
 │   ├── ussd_flow.json
 │   ├── webhook_endpoint.py
-│   └── sms_templates.md
+│   └── priority_tracker.py
 │
-├── 📂 maps/
-│   ├── venue_layout.fig
-│   ├── booth_coordinates.json
-│   └── mapbox_integration.md
-│
-├── 📂 emails/
-│   ├── mailchimp_templates/
-│   │   ├── institution_invite.md
-│   │   └── schedule_update.md
-│   └── email_config.json
-│
-├── 📂 schedule/
-│   ├── calendar_events.ics
-│   └── public_schedule.md
-│
-├── 📂 assets/
-│   ├── posters/
-│   │   └── event_poster_template.jpg
-│   ├── QR_codes/
-│   │   └── registration_qr.png
-│   └── social_graphics/
-│       └── banner_template.png
-│
+└── 📂 utilities/
+    ├── csv_importer.py
+    ├── contact_verifier.py
+    └── response_tracker.py
 ├── 📂 api/
 │   ├── registration_api.md
 │   ├── contact_sync.py
