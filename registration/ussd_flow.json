@@ -1,0 +1,23 @@
+{
+  "USSD_CODE": "38655",
+  "welcome_message": "Assalamu alaikum! Welcome to ElimuHub Education Fair",
+  "steps": {
+    "1": {
+      "text": "Enter your full name:",
+      "next": "2"
+    },
+    "2": {
+      "text": "Select institution:\n1. Al-Azhar University\n2. International Islamic University\n3. Darul Uloom",
+      "next": "3"
+    },
+    "3": {
+      "text": "Enter WhatsApp number:",
+      "next": "4"
+    },
+    "4": {
+      "text": "Registration complete! You'll receive event details via WhatsApp. JazakAllah khair",
+      "end": true
+    }
+  },
+  "error_message": "Invalid input. Please try again"
+}
