@@ -18,4 +18,4 @@ You're invited to the Annual ElimuHub Education Fair!
 
 *Register Now:* Dial *38655# FREE
 
-*Contact:* +254700123456
+*Contact:* +254731838387
